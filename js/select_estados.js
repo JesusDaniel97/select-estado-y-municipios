@@ -1,7 +1,7 @@
 $(document).ready(function(){
     // Cargamos los estados
     var estados = "<option value='' disabled selected>Selecciona el estado</option>";
-
+//
     for (var key in municipios) {
         if (municipios.hasOwnProperty(key)) {
             estados = estados + "<option value='" + key + "'>" + key + "</option>";
